@@ -23,6 +23,7 @@
 #include "Core/CTDSettings.h"
 #include "curl/curl.h"
 #include "json.hpp"
+#include "hello.h"
 
 std::unordered_map<int, std::string> TEXTURE_DEF = { {0, "Albedo 0"}, {1, "Albedo 1"}, {2, "Normal"}, {3, "Blended Normal"}, {4, "Cubemap"}, {7, "Lightmap"}, {10, "Tension Map"} };
 int TEXTURE_CAP = 512;
@@ -836,6 +837,8 @@ void RenderFrame() {
 
 int main(int argc, char* argv[])
 {
+    HelloZig("Hello from Zig, here's a number: ", 69);
+
     printf("-- CruelerThanDAT --\n");
 
     printf("Setting working directory...\n");
