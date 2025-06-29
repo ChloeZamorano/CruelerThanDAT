@@ -13,3 +13,5 @@ build-*/
 # Visual Studio and Visual Studio Code settings
 .vscode/
 .vs/
+.zig-cache/
+.cache/

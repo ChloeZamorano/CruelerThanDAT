@@ -1,0 +1,25 @@
+.{
+	.name = .CruelerThanDAT,
+	.version = "0.0.0", // https://semver.org/
+
+	.fingerprint = 0x269a48afa266946d,
+
+	.minimum_zig_version = "0.14.0",
+
+	.dependencies = .{
+		.zcc = .{
+			.url = "https://github.com/the-argus/zig-compile-commands/archive/1a71188d1816cc0741785d4694f790a1106a150a.tar.gz",
+			.hash = "N-V-__8AABjOAAD9JOGy29zdkAQcgyQyd0NaOn0zP0KyC40W",
+		},
+		.stb = .{
+			.url = "https://github.com/nothings/stb/archive/f58f558c120e9b32c217290b80bad1a0729fbb2c.zip",
+			.hash = "N-V-__8AAO8tTgBJoAbyWoWhdnNsGrx_ql6PT0ZLfoz2ms6b",
+		},
+	},
+
+	.paths = .{
+		"build.zig",
+		"build.zig.zon",
+		"CruelerThanDAT",
+	},
+}
